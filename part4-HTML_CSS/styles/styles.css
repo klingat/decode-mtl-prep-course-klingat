@@ -1,0 +1,148 @@
+html {
+    background: linear-gradient(180deg, white, #231747);
+}
+
+header {
+    display: block;
+    float: top;
+    background-image:url("../images/header.jpg");
+    height: 500px;
+    width: auto;
+    background-size: cover;
+    background-position: center;
+    background-repeat:no-repeat;
+    position: relative;
+}
+
+.banner {
+    position: absolute;
+    width: 100%;
+    display: block;
+    margin-top: 60px;
+}
+
+h1 {
+    color: white;
+    font-family: "Presa Ultralight";
+    font-size: 75px;
+    text-shadow: 5px 5px 10px #3f2353;
+    text-align: center;
+    letter-spacing: 10px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+h3 {
+    
+    color: #c6c1d7;
+    font-family: "Qwigley";
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    text-shadow: 1px 1px 1px #3f2353;
+    font-size: 35px;
+    letter-spacing: 3px;
+}
+
+.top {
+    display:block;
+    height: auto;
+    width: auto;
+    font-family: "Tahoma";
+    font-size: 14px;
+    color: white;
+
+    text-align:justify;
+}
+
+.left {
+    float: left;
+    display: block;
+    background-color: #207dba;
+    padding: 10px 10px 10px 10px;
+    font-family: "Tahoma";
+    font-size: 14px;
+    width:46%;
+    height: auto;
+    color: white;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+table, th, td, tr {
+    border: 1px solid white;
+    border-collapse: collapse;
+    color: white;
+    padding: 3px 3px 3px 3px;
+    width: 100%;
+    margin-top: 3px;
+}
+
+th {
+    color: #c6c1d7;
+    font-size: 14px;
+    font-family: "Helvetica";
+    background-color: #3f2353;
+}
+
+td, tr {
+    font-size: 12px;
+}
+
+td:nth-child(2) {
+    text-align: center;
+}
+
+.right {
+    float: right;
+    display: block;
+    background-color: #5ba4cc;
+    padding: 10px 10px 10px 10px;
+    font-family: "Tahoma";
+    font-size: 14px;
+    width: 46%;
+    height: auto;
+    color: white;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    
+}
+
+.mailbtn {
+    clear: both;
+    display: block;
+    text-align: center;
+    border: 2px solid darkorange;
+    width: 250px;
+    background-color: peachpuff;
+    border-radius: 20px;
+    margin: 5px 5px 5px 5px;
+    font-family: "Tahoma";
+    font-size: 15px;
+    padding: 2px 2px 2px 2px;
+    
+}
+
+#email {
+    text-decoration: none;
+    color: orange;
+}
+
+h2 {
+    color: #c6c1d7;
+    font-family: "Helvetica";
+    font-size: 20px;
+    margin-top: 0px;
+    text-shadow: 2px 2px 5px #3f2353;
+    text-align: center;
+}
+
+a {
+    color: pink;
+}
+
+a:hover {
+    color: deepskyblue;
+}
+
+
